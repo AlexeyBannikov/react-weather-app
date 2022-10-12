@@ -1,0 +1,17 @@
+@import '../../assets/styles/variables.scss';
+
+.root {
+  padding: 100px;
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(#{--primary-text-color-default});
+
+  span {
+    font-size: 64px;
+  }
+}
+
+.description {
+  font-size: 22px;
+}

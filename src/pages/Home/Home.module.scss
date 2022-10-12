@@ -1,0 +1,51 @@
+.root {
+  text-align: center;
+}
+
+.day {
+  margin-bottom: 20px;
+  color: var(#{--primary-text-color-default});
+}
+
+.icon {
+  width: 55px;
+  height: 55px;
+  margin-right: 10px;
+}
+
+.city {
+  font-size: 36px;
+}
+
+.info {
+  font-size: 22px;
+}
+
+.weather {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.temp {
+  font-size: 48px;
+}
+
+.dayInfo {
+  max-width: 650px;
+  margin: 0 auto;
+  color: var(#{--secondary-text-color-default});
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 10px;
+}
+
+@media screen and (max-width: 581px) {
+  .list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

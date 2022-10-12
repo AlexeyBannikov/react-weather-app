@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Nunito', Roboto, system-ui, Tahoma, sans-serif;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(#{--body-background-default});
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
